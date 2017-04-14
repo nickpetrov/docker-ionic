@@ -1,6 +1,6 @@
 version: '2'
 services:
-  bolo-service:
+  ionic-project-service:
     image: ionic-project-docker-image
     command: ionic serve -b -p 8100 -r 8200 --address 0.0.0.0
     volumes:
